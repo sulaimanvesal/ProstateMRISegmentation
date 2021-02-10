@@ -45,6 +45,23 @@ where $A$ is the ground-truth and $B$ is the model predictions.
 **Hausdorff Distance**: Computes the (symmetric) Hausdorff Distance (HD) between the binary objects in two images. It is defined as the maximum surface distance between the objects.
 
 ---
+## 1.4 Plot Random MRIs and Histogram
+Before doing any preprocessing, let's see some stats about the images from random patients. 
+
+- From histogram of the images, it can be seen that images have different range of values
+- The contrast of MRI images are very low
+- After overlaying the annotation masks on the images, still we can see that some of the annotations are not correct or shifted
+- Since, our task is to detect prostate wihtin MRI, we transfomed the segmentation masks to binary after merging the AG and ER classes.
+
+![Porstate-MR](https://github.com/sulaimanvesal/ProstateMRISegmentation/blob/main/images/sample.png)
+
+---
+## Inference
+
+Ground-Truth (prostateDx_03_0001)            |  Prediction (prostateDx_03_0001)
+:-------------------------:|:-------------------------:
+ ![Porstate-MR](https://github.com/sulaimanvesal/ProstateMRISegmentation/blob/main/images/prostate3T_02_0003_gt.png)| ![Porstate-MR](https://github.com/sulaimanvesal/ProstateMRISegmentation/blob/main/images/prostate3T_02_0003_pred.png)
+---
 ### Note: To re-run the notebook without python packaging problem, use ```enviroment.yml ``` file
 
 Use the ```terminal/Anaconda Prompt/Juupyter Notebook``` for the following steps:
