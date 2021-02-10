@@ -33,3 +33,16 @@ To segment the prostate, we can think of two standard approaches.
 
 
 **Note:** for the sake of this challenge we employed the first apporach.
+
+---
+### Note: To re-run the notebook without python packaging problem, use ```enviroment.yml ``` file
+
+Use the ```terminal/Anaconda Prompt/Juupyter Notebook``` for the following steps:
+
+- Create the environment from the environment.yml file: ```conda env create -f environment.yml```
+
+- The first line of the yml file sets the new environment's name. Here the name is: ```"pipleine_test"```
+
+- Activate the new environment: ```conda activate pipleine_test```
+
+- Verify that the new environment was installed correctly: ```conda env list```
