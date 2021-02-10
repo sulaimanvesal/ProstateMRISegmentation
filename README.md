@@ -22,3 +22,14 @@ Training and test data:
 
 ## Output:
 - The final system shall take an image as input, and output either „AP“ or „lateral“ as image type.
+
+---
+# Method
+
+To segment the prostate, we can think of two standard approaches.
+- **One-stage - Direct segmentation:** after observation we noticed that in all volumes prostate located almost in the center of MR images. On the other hand for the model, we need a fixed-size input so to tackle this issue, what we could do is to apply **centr-cropping** and extract region-of-interest (RoIs) with a fixed-size for example 256x256.
+
+- **Multi-stage - First detect then segment:** In this approach, we can run a very shallow auto-encoder to generate very rough segmentation of the input images in a smaller resolutions, then use the predicted output as a landarmark to corp the RoIs in the high-resolution images. This method is more clinically-relevant, since there is chances that the prostate located not in center of the MR images.
+
+
+**Note:** for the sake of this challenge we employed the first apporach.
