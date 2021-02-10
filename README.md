@@ -35,6 +35,16 @@ To segment the prostate, we can think of two standard approaches.
 **Note:** for the sake of this challenge we employed the first apporach.
 
 ---
+# Evaluation
+
+**Dice coefficient**: Computes the Dice coefficient (also known as Sorensen index) between the binary objects in two images.
+
+The metric is defined as : $$ DC=\frac{2|A∩B|}{|A|+|B|}$$
+where $A$ is the ground-truth and $B$ is the model predictions.
+
+**Hausdorff Distance**: Computes the (symmetric) Hausdorff Distance (HD) between the binary objects in two images. It is defined as the maximum surface distance between the objects.
+
+---
 ### Note: To re-run the notebook without python packaging problem, use ```enviroment.yml ``` file
 
 Use the ```terminal/Anaconda Prompt/Juupyter Notebook``` for the following steps:
