@@ -75,7 +75,6 @@ Ground-Truth (prostateDx_03_0001)            |  Prediction (prostateDx_03_0001)
 | ProstateDx-02-0005_truth | 0.89 | 13.638 | 0.953 | 0.995 | 0.994 | 0.000 |
 | time elapsed for   testing (hh:mm:ss.ms) 0:00:41.329661 |  |  |  |  |  |  |
 |valid-Prostate3T:   Volumetric Quantification |  |  |  |  |  |  |
-
 | Name                    |  Dice [%]  |     HD [mm] |  Sensitivity [%] |  Specificity [%] |   Vol-Corr  |      P-Value |
 | Prostate3T-02-0001_truth | 0.856 | 6.403 | 0.908 | 0.992 | 0.951 | 0.000 |
 | Prostate3T-02-0002_truth | 0.885 | 9.644 | 0.832 | 0.997 | 0.964 | 0.000 |
@@ -83,7 +82,6 @@ Ground-Truth (prostateDx_03_0001)            |  Prediction (prostateDx_03_0001)
 | Prostate3T-02-0004_truth | 0.846 | 13 | 0.782 | 0.994 | 0.945 | 0.000 |
 | Prostate3T-02-0005_truth | 0.88 | 7 | 0.83 | 0.996 | 0.953 | 0.000 |
 | test-ProstateDx:   Volumetric Quantification |  |  |  |  |  |  |
-
 | Name                    |  Dice [%]  |     HD [mm] |  Sensitivity [%] |  Specificity [%] |   Vol-Corr  |      P-Value |
 | ProstateDx-03-0001_truth | 0.925 | 8.544 | 0.958 | 0.993 | 0.982 | 0.000 |
 | ProstateDx-03-0002_truth | 0.892 | 6.782 | 0.961 | 0.993 | 0.973 | 0.000 |
@@ -91,7 +89,6 @@ Ground-Truth (prostateDx_03_0001)            |  Prediction (prostateDx_03_0001)
 | ProstateDx-03-0004_truth | 0.85 | 10 | 0.941 | 0.99 | 0.927 | 0.000 |
 | ProstateDx-03-0005_truth | 0.91 | 6 | 0.925 | 0.995 | 0.978 | 0.000 |
 | test-Prostate3T:   Volumetric Quantification|  |  |  |  |  |  |
-
 | Name                    |  Dice [%]  |     HD [mm] |  Sensitivity [%] |  Specificity [%] |   Vol-Corr  |      P-Value |
 | Prostate3T-03-0001_truth | 0.857 | 8.307 | 0.847 | 0.995 | 0.918 | 0.00 |
 | Prostate3T-03-0002_truth | 0.897 | 8.062 | 0.977 | 0.992 | 0.976 | 0.00 |
